@@ -1,9 +1,11 @@
-import LogoWhite from "./LogoWhite"
+import '../styles/sass/assets/css/footer.css'
+
+import LogoWhite from './LogoWhite'
 function Footer() {
   return (
     <div className='footer'>
-     <LogoWhite />
-      <p className="footer__text">© 2020 Kasa. All rights reserved</p>
+      <LogoWhite />
+      <p className='footer__text'>© 2020 Kasa. All rights reserved</p>
     </div>
   )
 }

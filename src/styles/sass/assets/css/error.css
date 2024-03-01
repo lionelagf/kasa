@@ -1,0 +1,40 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 94px 0 139px 0;
+  gap: 139px;
+}
+.error .color {
+  color: #ff6060;
+}
+.error__title {
+  font-size: 288px;
+  font-weight: 700;
+}
+.error__subtitle {
+  font-size: 36px;
+}
+.error__back-button {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .error {
+    margin: 113px 0;
+    gap: 113px;
+  }
+  .error__title {
+    font-size: 96px;
+  }
+  .error__subtitle {
+    font-size: 18px;
+  }
+  .error__back-button {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=error.css.map */

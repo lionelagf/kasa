@@ -1,9 +1,20 @@
-function About() {
+import Banner from '../components/Banner'
+import ImgBanner from '../images/banner_img_2.png'
+import Collapse from '../components/Collapse'
+import About from '../about.json'
+import '../styles/sass/assets/css/about.css'
+
+function AboutInfo() {
   return (
-    <div>
-      <h1>A propos</h1>
-    </div>
+    <section>
+      <Banner image={ImgBanner} />
+      <div className='collapse__container'>
+        {About.map((about, id) => (
+          <Collapse title={about.title} description={about.description} />
+        ))}
+      </div>
+    </section>
   )
 }
 
-export default About
+export default AboutInfo

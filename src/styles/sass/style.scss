@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 html,
 body,
 div,
@@ -83,110 +87,19 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
   text-decoration: none;
 }
 
 body {
-  margin: 0;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 100px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.header {
-  text-align: right;
-  padding: 45px 0 50px 0;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-
-  &__navbar {
-    padding-left: 32px;
-    font-size: 24px;
-
-    & a {
-      color: black;
-      margin-left: 57px;
-    }
+@media (max-width: 425px) {
+  body {
+    padding: 0 20px;
   }
-
-  &__logo {
-    width: 210px;
-  }
-}
-
-.footer {
-  background-color: black;
-  padding: 20px 0 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  &__logo {
-    margin-top: 66px;
-  }
-
-  &__text {
-    color: white;
-    font-size: 24px;
-    margin-top: 33px;
-  }
-}
-
-.banner {
-display: flex;
-width: 100%;
-height: auto;
-align-items: center;
-justify-content: center;
-padding-bottom: 43px;
-
-
-  &__img {
-    position: relative;
-    width: 100%;
-    height: 223px;
-    border-radius: 25px;
-    object-fit: cover;
-    z-index: -1;
-    display: flex;
-    box-shadow: 0px 6px 4px -4px rgba(0,0,0,0.2);
-    filter: brightness(40%);
- 
-  }
-
-  &__text {
-    
-    color: #FFF;
-    font-family: Montserrat;
-    width: 100%;
-    position: absolute;
-    font-weight: 700;
-   font-size: 48px;
-display: flex;
-justify-content: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: #000;
-  }
-}
-
-.rental-section {
-  display: flex;
-  background-color: F6F6F6;
-border-radius: 25px;
-width: 100%;
-padding: 56px 50px;
 }

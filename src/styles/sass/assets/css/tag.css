@@ -1,0 +1,27 @@
+.housing__tags-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.housing__tags {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 142.6%;
+  background-color: #ff6060;
+  border-radius: 10px;
+  padding: 3px 40px;
+}
+
+@media (max-width: 425px) {
+  .housing__tags-container {
+    margin-top: 10px;
+  }
+  .housing__tags {
+    font-size: 10px;
+    padding: 2px 30px;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=tag.css.map */

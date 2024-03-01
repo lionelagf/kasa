@@ -1,14 +1,24 @@
-import '../styles/assets/css/style.css'
-import { Link } from 'react-router-dom'
+import '../styles/sass/assets/css/header.css'
+import { NavLink } from 'react-router-dom'
 import Logo from './Logo'
+
+function getClassName({ isActive }) {
+  if (isActive) {
+    return 'active'
+  }
+}
 
 function Header() {
   return (
-    <div className="header">
-     <Logo />
+    <div className='header'>
+      <Logo />
       <nav className='header__navbar'>
-        <Link to='/'>Accueil</Link>
-        <Link to='/a-propos'>A propos</Link>
+        <NavLink to='/' className='{getClassName} header__navlink'>
+          Accueil
+        </NavLink>
+        <NavLink to='/a-propos' className={getClassName}>
+          A propos
+        </NavLink>
       </nav>
     </div>
   )

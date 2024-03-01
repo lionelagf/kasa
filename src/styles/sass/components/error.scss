@@ -1,0 +1,48 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 94px 0 139px 0;
+  gap: 139px;
+
+  .color {
+    color: #ff6060;
+  }
+
+  &__title {
+    font-size: 288px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    font-size: 36px;
+  }
+
+  &__back-button {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 425px) {
+  .error {
+    margin: 113px 0;
+gap: 113px;
+&__title {
+    font-size: 96px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+  }
+
+  &__back-button {
+    font-size: 14px;
+  }
+  }
+
+  
+}

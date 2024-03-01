@@ -1,0 +1,25 @@
+.rental-section {
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  height: auto;
+  padding: 56px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+}
+
+@media (max-width: 1024px) {
+  .rental-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 425px) {
+  .rental-section {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+    background-color: white;
+    padding: 0;
+  }
+}/*# sourceMappingURL=rental-section.css.map */
