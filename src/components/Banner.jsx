@@ -1,20 +1,14 @@
-import Img1 from '../images/kasa_logo'
-import Img2 from '../images/kasa_logo_white'
+import '../styles/assets/css/style.css'
 
-function Banner(img) {
+function Banner({ image, texte }) {
 	return (
-	<div className='banner'>
-	<h1>{props.texte}</h1>
-	
-	</div>
+	<div className="banner">
+		
+		<span className='banner__text'>{texte}</span>
+		
+		<img className="banner__img" src={image} alt="Bannière page d'accueil Kasa"/>
+	</div>	
 	)
-	
-}
-
-const img = {
-    imgSrc1: './images/banner_img_1.png',
-    imgSrc2: './images/banner_img_2.png',
-
 }
 
 export default Banner
