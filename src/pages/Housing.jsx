@@ -29,7 +29,7 @@ function Housing() {
   return (
     <section>
       <div>
-        <Carousel image={housing.pictures}/>
+        <Carousel image={housing.pictures} />
       </div>
       <div className='housing'>
         <div className='housing__container-one'>

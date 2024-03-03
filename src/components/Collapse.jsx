@@ -21,11 +21,13 @@ function Collapse({ title, description }) {
           </button>
         </div>
 
-        {isOpen && (
-          <div className={'collapse__content'}>
+        
+          <div
+            className={isOpen ? 'collapse__content' : 'collapse__content_hidden'}
+          >
             <div>{description}</div>
           </div>
-        )}
+        
       </div>
     </section>
   )

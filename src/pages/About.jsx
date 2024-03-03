@@ -10,7 +10,7 @@ function AboutInfo() {
       <Banner image={ImgBanner} />
       <div className='collapse__container'>
         {About.map((about, id) => (
-          <Collapse title={about.title} description={about.description} />
+          <Collapse key={id} title={about.title} description={about.description} />
         ))}
       </div>
     </section>

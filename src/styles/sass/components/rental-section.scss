@@ -15,12 +15,18 @@
   }
 }
 
-@media (max-width: 425px) {
-.rental-section {
-  grid-template-columns: 1fr;
-  grid-column-gap: 0;
-  grid-row-gap: 20px;
-  background-color: white;
-  padding: 0;
+@media (max-width: 768px) {
+  .rental-section {
+    grid-template-columns: 1fr;
+  }
 }
+
+@media (max-width: 425px) {
+  .rental-section {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+    background-color: white;
+    padding: 0;
+  }
 }

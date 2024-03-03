@@ -21,7 +21,6 @@
         rgba(0, 0, 0, 0.5) 100%
       );
     }
-  
   }
 
   &__card-img {
@@ -56,8 +55,14 @@
 @media (max-width: 425px) {
   .rental {
     &__card {
-     max-width: 100%;
+      max-width: 100%;
       height: 255px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .rental__card {
+    max-width: 100%;
   }
 }

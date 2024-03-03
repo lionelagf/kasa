@@ -5,9 +5,9 @@
   gap: 30px;
 }
 
-@media (max-width: 425px) {
-.collapse__container {
-  margin: 0;
-  gap: 20px;
-}
+@media (max-width: 768px) {
+  .collapse__container {
+    margin: 0;
+    gap: 20px;
+  }
 }

@@ -30,19 +30,17 @@
 @media (max-width: 425px) {
   .error {
     margin: 113px 0;
-gap: 113px;
-&__title {
-    font-size: 96px;
-  }
+    gap: 113px;
+    &__title {
+      font-size: 96px;
+    }
 
-  &__subtitle {
-    font-size: 18px;
-  }
+    &__subtitle {
+      font-size: 18px;
+    }
 
-  &__back-button {
-    font-size: 14px;
+    &__back-button {
+      font-size: 14px;
+    }
   }
-  }
-
-  
 }

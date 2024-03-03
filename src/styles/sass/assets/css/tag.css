@@ -24,4 +24,11 @@
     padding: 2px 30px;
     border-radius: 5px;
   }
+}
+@media (max-width: 768px) {
+  .housing__tags {
+    font-size: 11px;
+    padding: 3px 30px;
+    border-radius: 5px;
+  }
 }/*# sourceMappingURL=tag.css.map */

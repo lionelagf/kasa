@@ -55,8 +55,14 @@
     -webkit-text-stroke-width: 0;
   }
   .banner__text-container {
+    width: 100%;
     flex-wrap: wrap;
     gap: 0;
     justify-content: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .banner__text {
+    font-size: 32px;
   }
 }/*# sourceMappingURL=banner.css.map */
