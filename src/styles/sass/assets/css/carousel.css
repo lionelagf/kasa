@@ -3,6 +3,15 @@
   align-items: center;
   margin-bottom: 30px;
   position: relative;
+  justify-content: center;
+}
+.carousel__number {
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  bottom: 25px;
 }
 .carousel__img {
   display: flex;

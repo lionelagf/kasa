@@ -3,6 +3,16 @@
   align-items: center;
   margin-bottom: 30px;
   position: relative;
+  justify-content: center;
+
+&__number {
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  bottom: 25px;
+}
 
   &__img {
     display: flex;
